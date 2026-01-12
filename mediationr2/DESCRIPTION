@@ -1,0 +1,26 @@
+Package: mediationr2
+Type: Package
+Title: R2-Based Effect Sizes and Power Analysis for Mediation Models
+Version: 0.0.1
+Authors@R: c(
+    person("Heqiao", "Ruan", role = c("aut", "cre"), email = "you@example.com")
+  )
+Description: Utilities for simulating mediation-model data and conducting bootstrap-based
+    power analysis using R2-type effect sizes for linear models and deviance-based pseudo-R2
+    measures for generalized linear models.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.6.0)
+Imports:
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0),
+    simstudy,
+    semTools,
+    corpcor,
+    pscl,
+    MASS
+Config/testthat/edition: 3
